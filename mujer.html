@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADOC</title>
+
+    <link rel="icon" href="adoc.ico">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gluten&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        [class*='col-']{
+          float:left;
+        }
+
+        .col-1{width: 8.33%;}
+       .col-2{width: 16.66%;}
+        .col-3{width: 25%;}
+        .col-4{width: 33.33%;}
+        .col-5{width: 41.66%;}
+        .col-6{width: 50%;}
+        .col-7{width: 58.33%;}
+        .col-8{width: 66.66%;}
+        .col-9{width: 75%;}
+        .col-10{width: 83.33%;}
+        .col-11{width: 91.66%;}
+        .col-12{width: 100%;}  
+
+        a{
+            text-decoration:none;
+        }
+
+        .envio{
+            height: 40px;
+            background-color: #eebf32;
+            text-align:center;
+            line-height: 40px;
+            font-family: Ubuntu;
+        }
+        .logo{
+            width:150px;
+            margin: 13px 0px 0px 27%;
+            
+        }
+        .menu{
+            height: 70px;
+            
+            padding-top: 20px;
+            font-weight: bold;
+            font-family: Kanit;
+            text-align: center;
+
+        }
+        .imgoferta{
+            width:100%;
+            background-size: cover;
+            height: auto;
+        }
+        .subtitulo{
+            font-family: Kanit;
+            font-weight: bold;
+            color: #5c5c5c;
+            text-align: center;
+            padding-top: 40px;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .zapatos{
+            margin: 0px 0px 0px 60px;
+            font-family: Kanit;
+            padding-top: 50px;
+        }
+        .nomzapato{
+            color: #5c5c5c;
+            font-weight:bold;
+        }
+        .precio{
+            font-weight:bold;
+            color: #f94c43;
+        }
+        .img1{
+            width:200px;
+        }
+        .linea{
+            width:100%;
+            border-top: solid 1px #ddd;
+            margin-top:50px;
+        }
+        .descuentos{
+            color: black;
+        }
+        .hombre{
+            color: black;
+        }
+        .mujer{
+            color: black;
+        }
+        .contacto{
+            color: black;
+        }
+
+        .descuentos:hover{
+            color: #f94c43;
+        }
+        .hombre:hover{
+            color: #f94c43;
+        }
+        .mujer:hover{
+            color: #f94c43;
+        }
+        .contacto:hover{
+            color: #f94c43;
+        }
+        
+
+        @media only screen and (min-width:432px){
+          .col-m-1{width: 8.33%;}
+          .col-m-2{width: 16.66%;}
+          .col-m-3{width: 25%;}
+          .col-m-4{width: 33.33%;}
+          .col-m-5{width: 41.66%;}
+          .col-m-6{width: 50%;}
+          .col-m-7{width: 58.33%;}
+          .col-m-8{width: 66.66%;}
+          .col-m-9{width: 75%;}
+          .col-m-10{width: 83.33%;}
+          .col-m-11{width: 91.66%;}
+          .col-m-12{width: 100%;}  
+
+          .menu{
+              text-align: center;
+          }
+
+          .logo{
+            margin: 13px 0px 0px 40%;
+          }
+        }
+
+        @media only screen and (min-width:868px){
+          .col-g-1{width: 8.33%;}
+          .col-g-2{width: 16.66%;}
+          .col-g-3{width: 25%;}
+          .col-g-4{width: 33.33%;}
+          .col-g-5{width: 41.66%;}
+          .col-g-6{width: 50%;}
+          .col-g-7{width: 58.33%;}
+          .col-g-8{width: 66.66%;}
+          .col-g-9{width: 75%;}
+          .col-g-10{width: 83.33%;}
+          .col-g-11{width: 91.66%;}
+          .col-g-12{width: 100%;}  
+
+          .menu{
+              text-align: left;
+          }
+          .logo{
+            margin: 13px 0px 0px 60px;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="envio col-12 col-m-12 col-g-12">¡Envio Gratis! por compras mayores a L1000.00</div>
+    <div class="contmenu col-12 col-m-12 col-g-12">
+        <div class="col-12 col-m-12 col-g-4"><a href="index.html"><img class="logo" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/files/image006_130x@2x.png?v=1586908024" /></a></div>
+        <div class="menu">
+            <div class="descuentos col-12 col-m-6 col-g-2"><a class="descuentos" href="descuentos.html">Descuentos</a></div>
+            <div class="hombre col-12 col-m-6 col-g-2"><a class="hombre" href="hombre.html">Hombre</a></div>
+            <div class="mujer col-12 col-m-6 col-g-2"><a class="mujer" href="mujer.html">Mujer</a></div>
+            <div class="contacto col-12 col-m-6 col-g-2"><a class="contacto" href="contacto.html">Contacto</a></div>
+        </div>
+    </div>
+    <div class="col-12 col-m-12 col-g-12"><img class="imgoferta" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/files/MicrosoftTeams-image_8_1600x.jpg?v=1631636787" /></div>
+    <div class="subtitulo col-12 col-m-12 col-g-12">Los más vendidos de mujer</div>
+
+
+    <div class="zapatos">
+        <div class="zapato1 col-12 col-m-6 col-g-3">
+            <div class=" ">
+                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/3006046800101_360x.jpg?v=1623344312"/>
+                <p class="pzapato nomzapato">TENNIS BERLIN - BLUSHCRO</p>
+                <p class="precio">L 400</p>
+                </a>
+            </div>
+        </div>
+        <div class="zapato1 col-12 col-m-6 col-g-3">
+            <div class=" ">
+                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/10011234-0_93d124e9-4cca-442d-a495-0e8428b1fc8f_360x.jpg?v=1623344813"/>
+                <p class="pzapato nomzapato">TENNIS NICOLLE MS 121A-ROSADO</p>
+                <p class="precio">L 300</p>
+                </a>
+            </div>
+        </div>
+        <div class="zapato1 col-12 col-m-6 col-g-3">
+            <div class=" ">
+                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/30061175_7a0bf67e-11eb-431a-97b4-24cadbca8eee_360x.jpg?v=1623342675"/>
+                <p class="pzapato nomzapato">TENNIS HAILEY 221A - WHITE</p>
+                <p class="precio">L 849</p>
+                </a>
+            </div>
+        </div>
+        <div class="zapato1 col-12 col-m-6 col-g-3">
+            <div class=" ">
+                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/30062015-min_360x.jpg?v=1627496537"/>
+                <p class="pzapato nomzapato">Tennis Kayla 121A - Whitemul De Mujer</p>
+                <p class="precio">L 849</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <div class="subtitulo linea col-12 col-m-12 col-g-12">Confortables y suaves</div>
+    
+
+    <div class="zapatos">
+        <div class="zapato1 col-12 col-m-6 col-g-3">
+            <div class=" ">
+                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/30060523_c2c03247-de62-4443-8772-bb0fb35dacc7_360x.jpg?v=1623342856"/>
+                <p class="pzapato nomzapato">TENNIS NADIA 121A - BLUSH</p>
+                <p class="precio">L 849</p>
+                </a>
+            </div>
+        </div>
+        <div class="zapato1 col-12 col-m-6 col-g-3">
+            <div class=" ">
+                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/3006053500101_360x.jpg?v=1623343650"/>
+                <p class="pzapato nomzapato">TENNIS WILMA WSP 121A - MAUVE</p>
+                <p class="precio">L 849</p>
+                </a>
+            </div>
+        </div>
+        <div class="zapato1 col-12 col-m-6 col-g-3">
+            <div class=" ">
+                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/TennisSandy121A-TaupeDeMujer_360x.jpg?v=1629401291"/>
+                <p class="pzapato nomzapato">Tennis Sandy 121A - Taupe De Mujer</p>
+                <p class="precio">L 999</p>
+                </a>
+            </div>
+        </div>
+        <div class="zapato1 col-12 col-m-6 col-g-3">
+            <div class=" ">
+                <a href=""><img class="img1" src="https://cdn.shopify.com/s/files/1/0253/8360/0224/products/30061149_b789d8db-798e-492c-b47c-339322445b82_360x.jpg?v=1623342603"/>
+                <p class="pzapato nomzapato">TENNIS ELINA 221A - FADE</p>
+                <p class="precio">L 999</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
